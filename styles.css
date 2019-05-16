@@ -13,12 +13,12 @@ h1 {
 }
 
 p {
-	font-size: 50px;
+	font-size: 20px;
 }
 
 .inline_buttons .button_t {
 	text-align: center;
-	width: 100%;
+	width: 20%;
 	margin: 20px;
 }
 
@@ -32,11 +32,11 @@ p {
 	margin: 4px 2px;
 	opacity: 0.6;
 	transition: 0.3s;
-	display:inline-block;
+	/*display:inline-block;*/
 	text-decoration: none;
 	cursor: pointer;
-	position: absolute;
-	right: 200px;
+	/*position: absolute;*/
+	right: 00px;
 	top: 50px;
 }
 
