@@ -2,6 +2,11 @@ body {
 	background-color: lightblue;
 }
 
+A {
+	text-decoration: none;
+	color: white;
+}
+
 h1 {
 	color: white;
 	text-align: center;
@@ -10,6 +15,32 @@ h1 {
 p {
 	font-size: 50px;
 }
+
+.inline_buttons .button_t {
+	text-align: center;
+	width: 100%;
+	margin: 20px;
+}
+
+.button_t {
+	background-color: #0000ff;
+	border: none;
+	color: black;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	opacity: 0.6;
+	transition: 0.3s;
+	display:inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	position: absolute;
+	right: 200px;
+	top: 50px;
+}
+
+.button1:hover {opacity: 1}
 
 .b1 {
 	position: absolute;
